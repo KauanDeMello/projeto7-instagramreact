@@ -12,8 +12,6 @@ function Post(props) {
             isLiked,
     } = props
 
-    // const isSaved = props.isSaved
-
 
     const [foiSalvo, setFoiSalvo] = useState(isSaved)
     const [recebeuLike, setRecebeuLike] = useState(isLiked)
